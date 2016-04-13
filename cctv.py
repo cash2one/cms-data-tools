@@ -131,6 +131,7 @@ class Cctv:
 		desc = ''
 		header = {'User-Agent':'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:43.0) Gecko/20100101 Firefox/43.0',
 				'Host':'www.tvmao.com'}
+		print url
 		request = urllib2.Request(url,headers = header)
 		html = urllib2.urlopen(request).read().decode("utf-8")
 		reg = re.compile(r'<div class="clear more_c".*?<p>(.*?)</p>',re.S)
@@ -197,19 +198,21 @@ class Cctv:
 
 
 def main():
-	urlList = ['http://www.tvmao.com/program_satellite/BTV1-w4.html','http://www.tvmao.com/program_satellite/HUNANTV1-w5.html',
-			'http://www.tvmao.com/program/CHC-CHC1-w3.html','http://www.tvmao.com/program/CCTV-CCTV8-w3.html',
-			'http://www.tvmao.com/program_satellite/DONGFANG1-w5.html','http://www.tvmao.com/program/GDTV',
-	        	'http://www.tvmao.com/program/SZTV','http://www.tvmao.com/program/CHC-CHC2-w3.html',
-			'http://www.tvmao.com/program/CHC-CHC3-w3.html','http://www.tvmao.com/program/CCTV-CCTV3-w3.html',
-			'http://www.tvmao.com/program/CCTV-CCTV5-w3.html','http://www.tvmao.com/program/CCTV-CCTV6-w3.html',
-			'http://www.tvmao.com/program_satellite/ZJTV1-w5.html','http://www.tvmao.com/program/PHOENIX/PHOENIX1',
-			'http://www.tvmao.com/program/PHOENIX/PHOENIX1','http://www.tvmao.com/program/PHOENIX/PHOENIXHK',
-			'http://www.tvmao.com/program/PHOENIX/PHOENIX-INFONEWS','http://www.tvmao.com/program/PHOENIX/PHOENIX-INFONEWS']
-	nameList = ['Beijing','Hunan','CHC Action','CCTV 8','Dongfang','Guangdong','Shenzhen','CHC Family','CHC HD','CCTV 3','CCTV 5','CCTV 6','Zhejiang',
-			'PHX Chinese HD','PHX Chinese','PHX HK HD','PHX Infonews HD','PHX Infonews']
-#	urlList = ['http://www.tvmao.com/program/CCTV-CCTV6-w3.html']
-#	nameList = ['CCTV 6']
+#	urlList = ['http://www.tvmao.com/program_satellite/BTV1-w4.html','http://www.tvmao.com/program_satellite/HUNANTV1-w5.html',
+#			'http://www.tvmao.com/program/CHC-CHC1-w3.html','http://www.tvmao.com/program/CCTV-CCTV8-w3.html',
+#			'http://www.tvmao.com/program_satellite/DONGFANG1-w5.html','http://www.tvmao.com/program/GDTV',
+#	        	'http://www.tvmao.com/program/SZTV','http://www.tvmao.com/program/CHC-CHC2-w3.html',
+#			'http://www.tvmao.com/program/CHC-CHC3-w3.html','http://www.tvmao.com/program/CCTV-CCTV3-w3.html',
+#			'http://www.tvmao.com/program/CCTV-CCTV5-w3.html','http://www.tvmao.com/program/CCTV-CCTV6-w3.html',
+#			'http://www.tvmao.com/program_satellite/ZJTV1-w5.html','http://www.tvmao.com/program/PHOENIX/PHOENIX1',
+#			'http://www.tvmao.com/program/PHOENIX/PHOENIX1','http://www.tvmao.com/program/PHOENIX/PHOENIXHK',
+#			'http://www.tvmao.com/program/PHOENIX/PHOENIX-INFONEWS','http://www.tvmao.com/program/PHOENIX/PHOENIX-INFONEWS']
+#	nameList = ['Beijing','Hunan','CHC Action','CCTV 8','Dongfang','Guangdong','Shenzhen','CHC Family','CHC HD','CCTV 3','CCTV 5','CCTV 6','Zhejiang',
+#			'PHX Chinese HD','PHX Chinese','PHX HK HD','PHX Infonews HD','PHX Infonews']
+	
+	urlList = ['http://www.tvmao.com/program_satellite/HUNANTV1-w5.html']
+	nameList = ['Hunan']
+	
 	for i in range(len(urlList)):
 		url = urlList[i]
 		name = nameList[i]
