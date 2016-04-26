@@ -114,19 +114,23 @@ class oleDB:
         if r:
             return r[0][0]
         return ""
+    def get_lang(self, lang):
+	r = self.db.get_where("iptv_customer_support_language","lang='%s'" % lang, "language")
+	if r:
+	    return r[0][0]
+	return ""
     
-    
-    def get_series(self):
-        return self.db.get_where("tv_series", "cid=0 and mid=21", "name, media_id, season, episodes, description, region,issue_year")
+    def get_series(self, category_id):
+        return self.db.get_where("tv_series", "cid=0 and mid=0 and category_id=%d" % category_id, "name, media_id, season, episodes, description, region,issue_year")
     
     def get_series_detail(self,media_id):
-        return self.db.get_where("iptv_customer_prog", "media_id = '%s'" %media_id ,"multimedia_name,multimedia_url,issue_year,multimedia_thumbnail_url,multimedia_description,language,multimedia_duration,multimedia_area,episode")
+        return self.db.get_where("gvod_vod", "media_id = '%s'" %media_id ,"url,lang,name,thumbnail,episode,episodes,description,region,issue_year,duration")
 class cmsDB:
     def __init__(self):
-        self.db = DB("127.0.0.1", "root", "root", "cms")
+        self.db = DB("104.243.42.10", "root", "Star.123Mysql", "cms")
         self.db.connect()
         self.ole = oleDB()
-        self.cpspid = self.get_cpspid()
+       # self.cpspid = self.get_cpspid()
         
     def get_cpspid(self):
         if self.db.cid == 0:
@@ -134,6 +138,13 @@ class cmsDB:
         else:
             cpspid = self.db.get_where("cpsp", "code=%d" % self.db.cid, "id")
         return cpspid[0][0]
+
+    def get_cp_max_sequence(self,category_id):
+	seq = self.db.get_where("category_program", "categoryid=%d" % category_id, "max(sequence)")
+	if seq:
+	    return seq[0][0]
+	else:
+	    return 0
         
     def get_Mytube_Gvod(self):
         mytube_id = self.db.get_where("category","name='NG_list' and cpspid=%d and parentid=0" % self.cpspid, "id")[0][0]
@@ -192,10 +203,12 @@ class cmsDB:
         self.db.insert("picture", item)
         
     def add_category_program(self, programid, categoryid, programtype):
+	seq = self.get_cp_max_sequence(categoryid)
         cp = {}
         cp["programid"] = programid
         cp["categoryid"] = categoryid
         cp["programtype"] = programtype
+	cp["sequence"] = seq
         self.db.insert("category_program",cp)
         
     def replace_url(self,url):
@@ -244,7 +257,7 @@ class cmsDB:
                 self.add_category_program(program_id, category_id, 2)
     
     def add_series(self,category_id, ole_category_id):
-        series = self.ole.get_series()
+        series = self.ole.get_series(ole_category_id)
         for se in series:
             print "adding series %s" % se[0]
             item = {}
@@ -254,7 +267,7 @@ class cmsDB:
             item["originalcountry"] = se[5]
             item["releasestatus"] = 1
             item["status"] = 1
-            item["cpspid"] = self.cpspid
+            item["cpspid"] = 1
             item["supporttype"] = 127
             item["seriessupporttype"] = 127
             item["starlevel"] = 3
@@ -265,41 +278,42 @@ class cmsDB:
             s = self.ole.get_series_detail(se[1])
             
             for sitcom in s:
-                print "\tadd %s" % sitcom[0]
+                print "\tadd %s" % sitcom[2]
                 ser = {}
                 ser["supporttype"] = 127
                 ser["status"] = 1
                 ser["releasestatus"] =1
-                ser["name"] = sitcom[0]
-                ser["originalname"] = sitcom[0]
-                ser["sortname"] = sitcom[0]
-                ser["releaseyear"] = sitcom[2]
-                ser["description"] =sitcom[4]
+                ser["name"] = sitcom[2]
+                ser["originalname"] = sitcom[2]
+                ser["sortname"] = sitcom[2]
+                ser["releaseyear"] = sitcom[8]
+                ser["description"] =sitcom[6]
                 ser["originalcountry"] = self.ole.get_region(sitcom[7])
+		ser["language"] = self.ole.get_lang(sitcom[1])
                 ser["seriesflag"] = 1
-                ser["cpspid"] = self.cpspid
+                ser["cpspid"] = 1
                 ser["programtype"] = 0
                 ser["starlevel"] = 6
-                ser["length"] = sitcom[6]
+                ser["length"] = sitcom[9]
                 ser["contentprovider"] = "GVOD"
                 self.db.insert("program", ser)
                 program_id = self.db.getIdentiryId()
                 
                 mcItem = {}
                 mcItem["broadcasttype"] = 6
-                mcItem["playurl"] = self.replace_url(sitcom[1])
-                mcItem["fileurl"] = self.replace_url(sitcom[1])
+                mcItem["playurl"] = self.replace_url(sitcom[0])
+                mcItem["fileurl"] = self.replace_url(sitcom[0])
                 mcItem["programtype"] = 1
                 mcItem["programid"] = program_id
                 mcItem["source"] = "0:1:0"
-                mcItem["name"] = sitcom[0]
+                mcItem["name"] = sitcom[2]
                 mcItem["type"] = 1
                 mcItem["status"] = 0
                 self.db.insert("mediacontent",mcItem)
             
                 self.add_picture(program_id, 0,sitcom[3])
-                self.add_program_series(series_id, program_id,sitcom[8])
-                if sitcom[8] == 0:
+                self.add_program_series(series_id, program_id,sitcom[4]+1)
+                if sitcom[4] == 0:
                     series_picture = sitcom[3]
             self.add_category_program(series_id, category_id, 1)
             self.add_picture(series_id, 0, series_picture)
@@ -317,7 +331,8 @@ class cmsDB:
 def main():
     print("Starting.......")
     cms = cmsDB()
-    cms.add_category()
+    #cms.add_series(19,22)
+    cms.add_series(22,25)
     print("Ending......")
     
     
