@@ -115,10 +115,10 @@ class oleDB:
             return r[0][0]
         return ""
     def get_lang(self, lang):
-	r = self.db.get_where("iptv_customer_support_language","lang='%s'" % lang, "language")
-	if r:
-	    return r[0][0]
-	return ""
+		r = self.db.get_where("iptv_customer_support_language","lang='%s'" % lang, "language")
+		if r:
+			return r[0][0]
+		return ""
     
     def get_series(self, category_id):
         return self.db.get_where("tv_series", "cid=0 and mid=0 and category_id=%d" % category_id, "name, media_id, season, episodes, description, region,issue_year")
@@ -130,6 +130,7 @@ class cmsDB:
         self.db = DB("104.243.42.10", "root", "Star.123Mysql", "cms")
         self.db.connect()
         self.ole = oleDB()
+		self.maxSeq = 0
        # self.cpspid = self.get_cpspid()
         
     def get_cpspid(self):
@@ -140,11 +141,11 @@ class cmsDB:
         return cpspid[0][0]
 
     def get_cp_max_sequence(self,category_id):
-	seq = self.db.get_where("category_program", "categoryid=%d" % category_id, "max(sequence)")
-	if seq:
-	    return seq[0][0]
-	else:
-	    return 0
+		seq = self.db.get_where("category_program", "categoryid=%d" % category_id, "max(sequence)")
+		if seq:
+			return seq[0][0]
+		else:
+			return 0
         
     def get_Mytube_Gvod(self):
         mytube_id = self.db.get_where("category","name='NG_list' and cpspid=%d and parentid=0" % self.cpspid, "id")[0][0]
@@ -203,13 +204,14 @@ class cmsDB:
         self.db.insert("picture", item)
         
     def add_category_program(self, programid, categoryid, programtype):
-	seq = self.get_cp_max_sequence(categoryid)
+		
         cp = {}
         cp["programid"] = programid
         cp["categoryid"] = categoryid
         cp["programtype"] = programtype
-	cp["sequence"] = seq
+		cp["sequence"] = self.maxSeq
         self.db.insert("category_program",cp)
+		self.maxSeq += 1
         
     def replace_url(self,url):
         return url.replace("xm","http")
@@ -258,6 +260,7 @@ class cmsDB:
     
     def add_series(self,category_id, ole_category_id):
         series = self.ole.get_series(ole_category_id)
+		self.maxSeq = self.get_cp_max_sequence(category_id) + 1
         for se in series:
             print "adding series %s" % se[0]
             item = {}
@@ -289,7 +292,7 @@ class cmsDB:
                 ser["releaseyear"] = sitcom[8]
                 ser["description"] =sitcom[6]
                 ser["originalcountry"] = self.ole.get_region(sitcom[7])
-		ser["language"] = self.ole.get_lang(sitcom[1])
+				ser["language"] = self.ole.get_lang(sitcom[1])
                 ser["seriesflag"] = 1
                 ser["cpspid"] = 1
                 ser["programtype"] = 0
