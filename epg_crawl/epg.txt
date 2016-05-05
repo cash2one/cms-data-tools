@@ -1,0 +1,10 @@
+1，访问主网站，可以获取到epg日期，然后再筛选出今天之后的日期
+
+2，网站通过ajax传送epg列表，格式简单
+
+3,python 内置HTMLParser模块可以解码html编码:
+	
+import HTMLParser
+html_parser = HTMLParser.HTMLParser()
+txt = html_parser.unescape(html) #这样就得到了txt = '<abc>'
+
