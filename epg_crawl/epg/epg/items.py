@@ -6,6 +6,7 @@
 # http://doc.scrapy.org/en/latest/topics/items.html
 
 import scrapy
+from scrapy.loader.processors import TakeFirst
 
 
 class EpgItem(scrapy.Item):
@@ -13,4 +14,3 @@ class EpgItem(scrapy.Item):
     starttime = scrapy.Field()
     endtime = scrapy.Field()
     desc = scrapy.Field()
-    pass

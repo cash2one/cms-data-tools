@@ -61,9 +61,9 @@ NEWSPIDER_MODULE = 'epg.spiders'
 
 # Configure item pipelines
 # See http://scrapy.readthedocs.org/en/latest/topics/item-pipeline.html
-#ITEM_PIPELINES = {
-#    'epg.pipelines.SomePipeline': 300,
-#}
+ITEM_PIPELINES = {
+    'epg.pipelines.EpgPipeline': 300,
+}
 
 # Enable and configure the AutoThrottle extension (disabled by default)
 # See http://doc.scrapy.org/en/latest/topics/autothrottle.html
@@ -83,3 +83,5 @@ NEWSPIDER_MODULE = 'epg.spiders'
 #HTTPCACHE_DIR='httpcache'
 #HTTPCACHE_IGNORE_HTTP_CODES=[]
 #HTTPCACHE_STORAGE='scrapy.extensions.httpcache.FilesystemCacheStorage'
+
+LOG_LEVEL = 'ERROR'

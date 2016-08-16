@@ -1,0 +1,1159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0e2319be-92c9-49f1-a81a-eb2412fec714" name="Default" comment="">
+      <change type="DELETED" beforePath="$USER_HOME$/Desktop/django-lfs/lfs/core/locale" afterPath="" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Desktop/django-lfs/lfs/locale/cs/LC_MESSAGES/django.mo" afterPath="$USER_HOME$/Desktop/django-lfs/lfs/locale/cs/LC_MESSAGES/django.mo" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Desktop/django-lfs/lfs/manage/static/lfs/bower_components/jquery-ui/themes/black-tie/images/animated-overlay.gif" afterPath="$USER_HOME$/Desktop/django-lfs/lfs/manage/static/lfs/bower_components/jquery-ui/themes/black-tie/images/animated-overlay.gif" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Desktop/django-lfs/lfs/manage/static/lfs/bower_components/jquery-ui/themes/blitzer/images/animated-overlay.gif" afterPath="$USER_HOME$/Desktop/django-lfs/lfs/manage/static/lfs/bower_components/jquery-ui/themes/blitzer/images/animated-overlay.gif" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Desktop/django-lfs/lfs/manage/static/lfs/bower_components/jquery-ui/themes/cupertino/images/animated-overlay.gif" afterPath="$USER_HOME$/Desktop/django-lfs/lfs/manage/static/lfs/bower_components/jquery-ui/themes/cupertino/images/animated-overlay.gif" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Desktop/django-lfs/lfs/manage/static/lfs/bower_components/jquery-ui/themes/dark-hive/images/animated-overlay.gif" afterPath="$USER_HOME$/Desktop/django-lfs/lfs/manage/static/lfs/bower_components/jquery-ui/themes/dark-hive/images/animated-overlay.gif" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Desktop/django-lfs/lfs/manage/static/lfs/bower_components/jquery-ui/themes/dot-luv/images/animated-overlay.gif" afterPath="$USER_HOME$/Desktop/django-lfs/lfs/manage/static/lfs/bower_components/jquery-ui/themes/dot-luv/images/animated-overlay.gif" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Desktop/django-lfs/lfs/manage/static/lfs/bower_components/jquery-ui/themes/eggplant/images/animated-overlay.gif" afterPath="$USER_HOME$/Desktop/django-lfs/lfs/manage/static/lfs/bower_components/jquery-ui/themes/eggplant/images/animated-overlay.gif" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Desktop/django-lfs/lfs/manage/static/lfs/bower_components/jquery-ui/themes/excite-bike/images/animated-overlay.gif" afterPath="$USER_HOME$/Desktop/django-lfs/lfs/manage/static/lfs/bower_components/jquery-ui/themes/excite-bike/images/animated-overlay.gif" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Desktop/django-lfs/lfs/manage/static/lfs/bower_components/jquery-ui/themes/flick/images/animated-overlay.gif" afterPath="$USER_HOME$/Desktop/django-lfs/lfs/manage/static/lfs/bower_components/jquery-ui/themes/flick/images/animated-overlay.gif" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Desktop/django-lfs/lfs/manage/static/lfs/bower_components/jquery-ui/themes/hot-sneaks/images/animated-overlay.gif" afterPath="$USER_HOME$/Desktop/django-lfs/lfs/manage/static/lfs/bower_components/jquery-ui/themes/hot-sneaks/images/animated-overlay.gif" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Desktop/django-lfs/lfs/manage/static/lfs/bower_components/jquery-ui/themes/humanity/images/animated-overlay.gif" afterPath="$USER_HOME$/Desktop/django-lfs/lfs/manage/static/lfs/bower_components/jquery-ui/themes/humanity/images/animated-overlay.gif" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Desktop/django-lfs/lfs/manage/static/lfs/bower_components/jquery-ui/themes/le-frog/images/animated-overlay.gif" afterPath="$USER_HOME$/Desktop/django-lfs/lfs/manage/static/lfs/bower_components/jquery-ui/themes/le-frog/images/animated-overlay.gif" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Desktop/django-lfs/lfs/manage/static/lfs/bower_components/jquery-ui/themes/mint-choc/images/animated-overlay.gif" afterPath="$USER_HOME$/Desktop/django-lfs/lfs/manage/static/lfs/bower_components/jquery-ui/themes/mint-choc/images/animated-overlay.gif" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Desktop/django-lfs/lfs/manage/static/lfs/bower_components/jquery-ui/themes/overcast/images/animated-overlay.gif" afterPath="$USER_HOME$/Desktop/django-lfs/lfs/manage/static/lfs/bower_components/jquery-ui/themes/overcast/images/animated-overlay.gif" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Desktop/django-lfs/lfs/manage/static/lfs/bower_components/jquery-ui/themes/pepper-grinder/images/animated-overlay.gif" afterPath="$USER_HOME$/Desktop/django-lfs/lfs/manage/static/lfs/bower_components/jquery-ui/themes/pepper-grinder/images/animated-overlay.gif" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Desktop/django-lfs/lfs/manage/static/lfs/bower_components/jquery-ui/themes/redmond/images/animated-overlay.gif" afterPath="$USER_HOME$/Desktop/django-lfs/lfs/manage/static/lfs/bower_components/jquery-ui/themes/redmond/images/animated-overlay.gif" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Desktop/django-lfs/lfs/manage/static/lfs/bower_components/jquery-ui/themes/smoothness/images/animated-overlay.gif" afterPath="$USER_HOME$/Desktop/django-lfs/lfs/manage/static/lfs/bower_components/jquery-ui/themes/smoothness/images/animated-overlay.gif" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Desktop/django-lfs/lfs/manage/static/lfs/bower_components/jquery-ui/themes/south-street/images/animated-overlay.gif" afterPath="$USER_HOME$/Desktop/django-lfs/lfs/manage/static/lfs/bower_components/jquery-ui/themes/south-street/images/animated-overlay.gif" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Desktop/django-lfs/lfs/manage/static/lfs/bower_components/jquery-ui/themes/start/images/animated-overlay.gif" afterPath="$USER_HOME$/Desktop/django-lfs/lfs/manage/static/lfs/bower_components/jquery-ui/themes/start/images/animated-overlay.gif" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Desktop/django-lfs/lfs/manage/static/lfs/bower_components/jquery-ui/themes/sunny/images/animated-overlay.gif" afterPath="$USER_HOME$/Desktop/django-lfs/lfs/manage/static/lfs/bower_components/jquery-ui/themes/sunny/images/animated-overlay.gif" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Desktop/django-lfs/lfs/manage/static/lfs/bower_components/jquery-ui/themes/swanky-purse/images/animated-overlay.gif" afterPath="$USER_HOME$/Desktop/django-lfs/lfs/manage/static/lfs/bower_components/jquery-ui/themes/swanky-purse/images/animated-overlay.gif" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Desktop/django-lfs/lfs/manage/static/lfs/bower_components/jquery-ui/themes/trontastic/images/animated-overlay.gif" afterPath="$USER_HOME$/Desktop/django-lfs/lfs/manage/static/lfs/bower_components/jquery-ui/themes/trontastic/images/animated-overlay.gif" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Desktop/django-lfs/lfs/manage/static/lfs/bower_components/jquery-ui/themes/ui-darkness/images/animated-overlay.gif" afterPath="$USER_HOME$/Desktop/django-lfs/lfs/manage/static/lfs/bower_components/jquery-ui/themes/ui-darkness/images/animated-overlay.gif" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Desktop/django-lfs/lfs/manage/static/lfs/bower_components/jquery-ui/themes/ui-lightness/images/animated-overlay.gif" afterPath="$USER_HOME$/Desktop/django-lfs/lfs/manage/static/lfs/bower_components/jquery-ui/themes/ui-lightness/images/animated-overlay.gif" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Desktop/django-lfs/lfs/manage/static/lfs/bower_components/jquery-ui/themes/vader/images/animated-overlay.gif" afterPath="$USER_HOME$/Desktop/django-lfs/lfs/manage/static/lfs/bower_components/jquery-ui/themes/vader/images/animated-overlay.gif" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Desktop/django-lfs/lfs/manage/static/lfs/icons/accept.png" afterPath="$USER_HOME$/Desktop/django-lfs/lfs/manage/static/lfs/icons/accept.png" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Desktop/django-lfs/lfs/manage/static/lfs/icons/add.png" afterPath="$USER_HOME$/Desktop/django-lfs/lfs/manage/static/lfs/icons/add.png" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Desktop/django-lfs/lfs/manage/static/lfs/icons/arrow_down.png" afterPath="$USER_HOME$/Desktop/django-lfs/lfs/manage/static/lfs/icons/arrow_down.png" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Desktop/django-lfs/lfs/manage/static/lfs/icons/arrow_left.png" afterPath="$USER_HOME$/Desktop/django-lfs/lfs/manage/static/lfs/icons/arrow_left.png" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Desktop/django-lfs/lfs/manage/static/lfs/icons/arrow_up.png" afterPath="$USER_HOME$/Desktop/django-lfs/lfs/manage/static/lfs/icons/arrow_up.png" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Desktop/django-lfs/lfs/manage/static/lfs/icons/cancel.png" afterPath="$USER_HOME$/Desktop/django-lfs/lfs/manage/static/lfs/icons/cancel.png" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Desktop/django-lfs/lfs/manage/static/lfs/icons/cross.png" afterPath="$USER_HOME$/Desktop/django-lfs/lfs/manage/static/lfs/icons/cross.png" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Desktop/django-lfs/lfs/manage/static/lfs/icons/delete.png" afterPath="$USER_HOME$/Desktop/django-lfs/lfs/manage/static/lfs/icons/delete.png" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Desktop/django-lfs/lfs/manage/static/lfs/icons/disk.png" afterPath="$USER_HOME$/Desktop/django-lfs/lfs/manage/static/lfs/icons/disk.png" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Desktop/django-lfs/lfs/manage/static/lfs/icons/email.png" afterPath="$USER_HOME$/Desktop/django-lfs/lfs/manage/static/lfs/icons/email.png" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Desktop/django-lfs/lfs/manage/static/lfs/icons/pencil.png" afterPath="$USER_HOME$/Desktop/django-lfs/lfs/manage/static/lfs/icons/pencil.png" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Desktop/django-lfs/lfs/manage/static/lfs/icons/resultset_first.png" afterPath="$USER_HOME$/Desktop/django-lfs/lfs/manage/static/lfs/icons/resultset_first.png" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Desktop/django-lfs/lfs/manage/static/lfs/icons/resultset_last.png" afterPath="$USER_HOME$/Desktop/django-lfs/lfs/manage/static/lfs/icons/resultset_last.png" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Desktop/django-lfs/lfs/manage/static/lfs/icons/resultset_next.png" afterPath="$USER_HOME$/Desktop/django-lfs/lfs/manage/static/lfs/icons/resultset_next.png" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Desktop/django-lfs/lfs/manage/static/lfs/icons/resultset_previous.png" afterPath="$USER_HOME$/Desktop/django-lfs/lfs/manage/static/lfs/icons/resultset_previous.png" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Desktop/django-lfs/lfs/manage/static/lfs/icons/tick.png" afterPath="$USER_HOME$/Desktop/django-lfs/lfs/manage/static/lfs/icons/tick.png" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Desktop/django-lfs/lfs/manage/static/lfs/icons/zoom.png" afterPath="$USER_HOME$/Desktop/django-lfs/lfs/manage/static/lfs/icons/zoom.png" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Desktop/django-lfs/lfs/gross_price/__init__.py" afterPath="$USER_HOME$/Desktop/django-lfs/lfs/gross_price/__init__.py" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Desktop/django-lfs/lfs/gross_price/models.py" afterPath="$USER_HOME$/Desktop/django-lfs/lfs/gross_price/models.py" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Desktop/django-lfs/lfs/gross_price/tests.py" afterPath="$USER_HOME$/Desktop/django-lfs/lfs/gross_price/tests.py" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Desktop/django-lfs/lfs/gross_price/views.py" afterPath="$USER_HOME$/Desktop/django-lfs/lfs/gross_price/views.py" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Desktop/django-lfs/lfs/integrationtests/__init__.py" afterPath="$USER_HOME$/Desktop/django-lfs/lfs/integrationtests/__init__.py" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Desktop/django-lfs/lfs/integrationtests/models.py" afterPath="$USER_HOME$/Desktop/django-lfs/lfs/integrationtests/models.py" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Desktop/django-lfs/lfs/integrationtests/tests.py" afterPath="$USER_HOME$/Desktop/django-lfs/lfs/integrationtests/tests.py" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Desktop/django-lfs/lfs/integrationtests/views.py" afterPath="$USER_HOME$/Desktop/django-lfs/lfs/integrationtests/views.py" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Desktop/django-lfs/lfs/locale/cs/LC_MESSAGES/django.po" afterPath="$USER_HOME$/Desktop/django-lfs/lfs/locale/cs/LC_MESSAGES/django.po" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Desktop/django-lfs/lfs/locale/es/LC_MESSAGES/django.po" afterPath="$USER_HOME$/Desktop/django-lfs/lfs/locale/es/LC_MESSAGES/django.po" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Desktop/django-lfs/lfs/manage/static/lfs/bower_components/blueimp-tmpl/js/compile.js" afterPath="$USER_HOME$/Desktop/django-lfs/lfs/manage/static/lfs/bower_components/blueimp-tmpl/js/compile.js" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Desktop/django-lfs/lfs/manage/static/lfs/bower_components/jgrowl/examples/jgrowl-pool.html" afterPath="$USER_HOME$/Desktop/django-lfs/lfs/manage/static/lfs/bower_components/jgrowl/examples/jgrowl-pool.html" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Desktop/django-lfs/lfs/manage/static/lfs/bower_components/jgrowl/examples/jgrowl.html" afterPath="$USER_HOME$/Desktop/django-lfs/lfs/manage/static/lfs/bower_components/jgrowl/examples/jgrowl.html" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Desktop/django-lfs/lfs/manage/static/lfs/bower_components/jgrowl/jquery.jgrowl.css" afterPath="$USER_HOME$/Desktop/django-lfs/lfs/manage/static/lfs/bower_components/jgrowl/jquery.jgrowl.css" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Desktop/django-lfs/lfs/manage/static/lfs/bower_components/jgrowl/jquery.jgrowl.js" afterPath="$USER_HOME$/Desktop/django-lfs/lfs/manage/static/lfs/bower_components/jgrowl/jquery.jgrowl.js" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Desktop/django-lfs/lfs/manage/static/lfs/bower_components/jquery-file-upload/js/jquery.fileupload-jquery-ui.js" afterPath="$USER_HOME$/Desktop/django-lfs/lfs/manage/static/lfs/bower_components/jquery-file-upload/js/jquery.fileupload-jquery-ui.js" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Desktop/django-lfs/lfs/manage/static/lfs/bower_components/jquery-ui/ui/.jshintrc" afterPath="$USER_HOME$/Desktop/django-lfs/lfs/manage/static/lfs/bower_components/jquery-ui/ui/.jshintrc" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Desktop/django-lfs/lfs/net_price/__init__.py" afterPath="$USER_HOME$/Desktop/django-lfs/lfs/net_price/__init__.py" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Desktop/django-lfs/lfs/net_price/models.py" afterPath="$USER_HOME$/Desktop/django-lfs/lfs/net_price/models.py" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Desktop/django-lfs/lfs/net_price/tests.py" afterPath="$USER_HOME$/Desktop/django-lfs/lfs/net_price/tests.py" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Desktop/django-lfs/lfs/net_price/views.py" afterPath="$USER_HOME$/Desktop/django-lfs/lfs/net_price/views.py" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Desktop/django-lfs/lfs/portlet/models/featured.py" afterPath="$USER_HOME$/Desktop/django-lfs/lfs/portlet/models/featured.py" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Desktop/django-lfs/lfs/portlet/models/forsale.py" afterPath="$USER_HOME$/Desktop/django-lfs/lfs/portlet/models/forsale.py" />
+    </list>
+    <ignored path="epg_crawl.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path=".idea/dataSources.local.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/epg_crawl$cms_data_tools.coverage" NAME="cms_data_tools Coverage Results" MODIFIED="1464660630730" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../test" />
+    <SUITE FILE_PATH="coverage/epg_crawl$test.coverage" NAME="test Coverage Results" MODIFIED="1464765413278" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../test" />
+    <SUITE FILE_PATH="coverage/epg_crawl$cctv.coverage" NAME="cctv Coverage Results" MODIFIED="1467686109632" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/.." />
+    <SUITE FILE_PATH="coverage/epg_crawl$cctv__1_.coverage" NAME="cctv (1) Coverage Results" MODIFIED="1467597791389" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Desktop" />
+    <SUITE FILE_PATH="coverage/epg_crawl$re_tab.coverage" NAME="re_tab Coverage Results" MODIFIED="1467602207466" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../test" />
+    <SUITE FILE_PATH="coverage/epg_crawl$api_test.coverage" NAME="api_test Coverage Results" MODIFIED="1466153592788" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Desktop/mall/test_python_script" />
+    <SUITE FILE_PATH="coverage/epg_crawl$selenium_getip.coverage" NAME="selenium_getip Coverage Results" MODIFIED="1467599315745" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/.." />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="epg_crawl" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Desktop/iptv/list/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="7" column="92" selection-start-line="7" selection-start-column="92" selection-end-line="7" selection-end-column="92" />
+              <folding>
+                <element signature="e#0#32#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Desktop/iptv/list/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#11#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Desktop/mysite/myblog/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="52" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Desktop/iptv/list/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="13" column="16" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="16" />
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
+                <marker date="1470190171987" expanded="true" signature="137:301" placeholder="..." />
+                <marker date="1470190171987" expanded="true" signature="335:558" placeholder="..." />
+                <marker date="1470190171987" expanded="true" signature="589:860" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Desktop/iptv/list/templates/list/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-17.0">
+              <caret line="26" column="55" selection-start-line="26" selection-start-column="55" selection-end-line="26" selection-end-column="55" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="detail.html" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Desktop/mysite/polls/templates/polls/detail.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="manager.py" pinned="false" current-in-tab="true">
+        <entry file="file://$USER_HOME$/Desktop/iptv/list/manager.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.57062936">
+              <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+              <folding>
+                <marker date="1470291616351" expanded="true" signature="188:255" placeholder="select id,na... category" />
+                <marker date="1470291616351" expanded="true" signature="636:758" placeholder="select a.nam... program" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="HTML File" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../scrapy" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$USER_HOME$/Desktop/mysite/polls/urls.py" />
+        <option value="$USER_HOME$/Desktop/mysite/polls/tests.py" />
+        <option value="$USER_HOME$/Desktop/mysite/polls/static/polls/style.css" />
+        <option value="$USER_HOME$/Desktop/mysite/polls/templates/polls/index.html" />
+        <option value="$USER_HOME$/Desktop/mysite/polls/models.py" />
+        <option value="$USER_HOME$/Desktop/mysite/polls/templates/admin/base_site.html" />
+        <option value="$USER_HOME$/Desktop/mysite/templates/admin/base_site.html" />
+        <option value="$USER_HOME$/Desktop/mysite/blog/views.py" />
+        <option value="$USER_HOME$/Desktop/mysite/blog/urls.py" />
+        <option value="D:/Python idle/Lib/site-packages/basic/blog/templatetags/blog.py" />
+        <option value="D:/Python idle/Lib/site-packages/basic/blog/managers.py" />
+        <option value="D:/Python idle/Lib/site-packages/basic/blog/migrations/__init.py" />
+        <option value="D:/Python idle/Lib/site-packages/basic/blog/models.py" />
+        <option value="D:/Python idle/Lib/site-packages/basic/blog/templates/admin/blog/post/change_form.html" />
+        <option value="D:/Python idle/Lib/site-packages/basic/blog/urls.py" />
+        <option value="D:/Python idle/Lib/site-packages/basic/blog/views.py" />
+        <option value="D:/Python idle/Lib/site-packages/basic/blog/templates/blog/post_detail.html" />
+        <option value="$USER_HOME$/Desktop/cctv.py" />
+        <option value="$PROJECT_DIR$/../test/re_tab.py" />
+        <option value="$PROJECT_DIR$/../test/new_cctv.py" />
+        <option value="$USER_HOME$/Desktop/mysite/polls/admin.py" />
+        <option value="$USER_HOME$/Desktop/mysite/mysite/urls.py" />
+        <option value="$USER_HOME$/Desktop/mysite/myblog/templates/index.html" />
+        <option value="$USER_HOME$/Desktop/mysite/polls/views.py" />
+        <option value="D:/Python idle/Lib/site-packages/selenium/webdriver/support/event_firing_webdriver.py" />
+        <option value="D:/Python idle/Lib/site-packages/selenium/webdriver/remote/webelement.py" />
+        <option value="$PROJECT_DIR$/../cctv.py" />
+        <option value="$USER_HOME$/Desktop/mysite/myblog/templates/myblog/index.html" />
+        <option value="$USER_HOME$/Desktop/mysite/myblog/templates/myblog/summary.html" />
+        <option value="$USER_HOME$/Desktop/mysite/myblog/models.py" />
+        <option value="$USER_HOME$/Desktop/mysite/myblog/admin.py" />
+        <option value="$USER_HOME$/Desktop/mysite/polls/templates/polls/detail.html" />
+        <option value="$USER_HOME$/Desktop/mysite/myblog/urls.py" />
+        <option value="D:/Python idle/Lib/site-packages/myDb.py" />
+        <option value="$USER_HOME$/Desktop/mysite/myblog/views.py" />
+        <option value="$USER_HOME$/Desktop/mysite/mysite/settings.py" />
+        <option value="$USER_HOME$/Desktop/mysite/myblog/templates/myblog/channel.html" />
+        <option value="$USER_HOME$/Desktop/mysite/myblog/templates/myblog/base.html" />
+        <option value="$USER_HOME$/Desktop/mysite/myblog/templates/myblog/base_content.html" />
+        <option value="$USER_HOME$/Desktop/mysite/myblog/static/myblog/css.css" />
+        <option value="$USER_HOME$/Desktop/mysite/myblog/templates/myblog/program_del.html" />
+        <option value="$USER_HOME$/Desktop/mysite/myblog/templates/myblog/schedule.html" />
+        <option value="$USER_HOME$/Desktop/mysite/myblog/templates/myblog/url_modify.html" />
+        <option value="$USER_HOME$/Desktop/mysite/myblog/templates/myblog/content.html" />
+        <option value="$USER_HOME$/Desktop/iptv/iptv/urls.py" />
+        <option value="$USER_HOME$/Desktop/iptv/iptv/settings.py" />
+        <option value="$USER_HOME$/Desktop/iptv/list/templates/list/index.html" />
+        <option value="$USER_HOME$/Desktop/iptv/list/urls.py" />
+        <option value="$USER_HOME$/Desktop/iptv/list/views.py" />
+        <option value="$USER_HOME$/Desktop/iptv/list/models.py" />
+        <option value="$USER_HOME$/Desktop/iptv/list/manager.py" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" />
+  <component name="JsBuildToolPackageJson" detection-done="true" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1456" />
+    <option name="height" value="876" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="epg_crawl" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="epg_crawl" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mysite" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="epg_crawl" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mysite" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="myblog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="epg_crawl" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="iptv" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="epg_crawl" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="iptv" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="list" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="epg_crawl" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="iptv" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="iptv" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/iptv" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="SearchEverywhereHistoryKey" value="jquery&#9;null&#9;null&#10;cart.html&#9;FILE&#9;file://C:/Users/Administrator/Desktop/django-lfs/lfs/manage/templates/manage/cart/cart.html&#10;shop&#9;null&#9;null&#10;settings.py&#9;FILE&#9;file://C:/Users/Administrator/Desktop/django-lfs/lfs/payment/settings.py" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrator\Desktop\iptv\list\static\easyui" />
+      <recent name="C:\Users\Administrator\Desktop\iptv\list\static" />
+      <recent name="C:\Users\Administrator\Desktop\iptv\list\static\jqgrid" />
+      <recent name="C:\Users\Administrator\Desktop\mysite\myblog\static\myblog" />
+      <recent name="C:\Users\Administrator\Desktop\mysite" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrator\Desktop\mysite\myblog\templates\myblog" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.cctv">
+    <configuration default="false" name="cctv" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/.." />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="epg_crawl" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../cctv.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="api_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$USER_HOME$/Desktop/mall/test_python_script" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="epg_crawl" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$USER_HOME$/Desktop/mall/test_python_script/api_test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="cctv (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$USER_HOME$/Desktop" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="epg_crawl" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$USER_HOME$/Desktop/cctv.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="selenium_getip" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/.." />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="epg_crawl" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../selenium_getip.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="re_tab" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="test" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../test/re_tab.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="epg_crawl" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="TARGET" value="" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="PyBehaveRunConfigurationType" factoryName="Behave">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="epg_crawl" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="ADDITIONAL_ARGS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PyLettuceRunConfigurationType" factoryName="Lettuce">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="epg_crawl" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="ADDITIONAL_ARGS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="epg_crawl" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run-script" />
+      <scripts />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Attests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="epg_crawl" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="epg_crawl" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Nosetests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="epg_crawl" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="epg_crawl" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="py.test">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="epg_crawl" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="testToRun" value="" />
+      <option name="keywords" value="" />
+      <option name="params" value="" />
+      <option name="USE_PARAM" value="false" />
+      <option name="USE_KEYWORD" value="false" />
+      <method />
+    </configuration>
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="Python.cctv" />
+      <item index="1" class="java.lang.String" itemvalue="Python.api_test" />
+      <item index="2" class="java.lang.String" itemvalue="Python.cctv (1)" />
+      <item index="3" class="java.lang.String" itemvalue="Python.selenium_getip" />
+      <item index="4" class="java.lang.String" itemvalue="Python.re_tab" />
+    </list>
+    <recent_temporary>
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Python.cctv" />
+        <item index="1" class="java.lang.String" itemvalue="Python.re_tab" />
+        <item index="2" class="java.lang.String" itemvalue="Python.selenium_getip" />
+        <item index="3" class="java.lang.String" itemvalue="Python.cctv (1)" />
+        <item index="4" class="java.lang.String" itemvalue="Python.api_test" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0e2319be-92c9-49f1-a81a-eb2412fec714" name="Default" comment="" />
+      <created>1462518671287</created>
+      <option name="number" value="Default" />
+      <updated>1462518671287</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1456" height="876" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23567335" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293011" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293011" sideWeight="0.5057307" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293011" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293011" sideWeight="0.49426934" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293011" sideWeight="0.49426934" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3252688" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293011" sideWeight="0.5028653" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293011" sideWeight="0.49713466" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15544413" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32879376" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$USER_HOME$/Desktop/mysite/mysite/settings.py</url>
+          <line>12</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="3" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$USER_HOME$/Desktop/django-lfs/lfs/core/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.107142">
+          <caret line="23" column="56" selection-start-line="23" selection-start-column="47" selection-end-line="23" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/django-lfs/lfs/cart/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.4978166">
+          <caret line="25" column="18" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/django-lfs/lfs/customer/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-24.321428">
+          <caret line="126" column="44" selection-start-line="126" selection-start-column="44" selection-end-line="126" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/django-lfs/lfs/catalog/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.775862">
+          <caret line="26" column="26" selection-start-line="26" selection-start-column="26" selection-end-line="26" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/django-lfs/lfs/catalog/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.0689654">
+          <caret line="1872" column="11" selection-start-line="1872" selection-start-column="11" selection-end-line="1872" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Python idle/Lib/site-packages/django/utils/http.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33286715">
+          <caret line="99" column="4" selection-start-line="99" selection-start-column="4" selection-end-line="99" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/django-lfs/lfs/core/utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6928675">
+          <caret line="143" column="20" selection-start-line="143" selection-start-column="20" selection-end-line="143" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/django-lfs/lfs/manage/templates/manage/cart/carts_filters_inline.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/django-lfs/lfs/locale/zh_CN/LC_MESSAGES/django.po">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.4965036">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/django-lfs/lfs/manage/templates/manage/cart/cart.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.4285715">
+          <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/django-lfs/lfs/core/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.775862">
+          <caret line="22" column="47" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/django-lfs/lfs/cart/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.2413793">
+          <caret line="41" column="61" selection-start-line="41" selection-start-column="61" selection-end-line="41" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/django-lfs/lfs/core/templatetags/lfs_tags.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33333334">
+          <caret line="117" column="16" selection-start-line="117" selection-start-column="16" selection-end-line="117" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/django-lfs/lfs/manage/templates/manage/manage_base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.230769">
+          <caret line="86" column="0" selection-start-line="86" selection-start-column="0" selection-end-line="86" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/mysite/myblog/static/myblog/css.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.148149">
+          <caret line="67" column="1" selection-start-line="67" selection-start-column="1" selection-end-line="67" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/mysite/myblog/templates/myblog/summary.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/mysite/myblog/templates/myblog/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/mysite/myblog/templates/myblog/url_modify.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="66" selection-start-line="7" selection-start-column="66" selection-end-line="7" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/mysite/myblog/templates/myblog/channel.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.0">
+          <caret line="0" column="31" selection-start-line="0" selection-start-column="31" selection-end-line="0" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/mysite/myblog/templates/myblog/base_content.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="16" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/django-lfs/lfs/manage/static/lfs/bower_components/jquery-ui/ui/sortable.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33286715">
+          <caret line="641" column="4" selection-start-line="641" selection-start-column="4" selection-end-line="641" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/mysite/myblog/static/myblog/cctv.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6125874">
+          <caret line="252" column="52" selection-start-line="252" selection-start-column="52" selection-end-line="252" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/mysite/myblog/templates/myblog/content.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.02467344">
+          <caret line="10" column="88" selection-start-line="10" selection-start-column="88" selection-end-line="10" selection-end-column="88" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/mysite/myblog/templates/myblog/program_del.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.72859216">
+          <caret line="38" column="22" selection-start-line="38" selection-start-column="22" selection-end-line="38" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/mysite/myblog/templates/myblog/schedule.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.02467344">
+          <caret line="12" column="76" selection-start-line="12" selection-start-column="76" selection-end-line="12" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/iptv/list/apps.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#39#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Python idle/Lib/site-packages/django/db/models/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.53138685">
+          <caret line="1673" column="0" selection-start-line="1673" selection-start-column="0" selection-end-line="1673" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#39#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/epg/epg/spiders/bsport_2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.28531468">
+          <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Python idle/Lib/site-packages/django/conf/urls/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="20" column="4" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/mysite/myblog/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#32#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/mysite/mysite/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#639#680#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/mysite/mysite/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6433566">
+          <caret line="114" column="0" selection-start-line="114" selection-start-column="0" selection-end-line="114" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/iptv/iptv/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.14125875">
+          <caret line="84" column="19" selection-start-line="84" selection-start-column="19" selection-end-line="84" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/iptv/list/static/jqgrid/css/ui.jqgrid.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/mysite/myblog/templates/myblog/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5428157">
+          <caret line="22" column="19" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/iptv/list/static/jquery-1.11.2.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/iptv/list/static/jquery.ui.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8660844">
+          <caret line="4" column="4028" selection-start-line="4" selection-start-column="4028" selection-end-line="4" selection-end-column="4028" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/iptv/iptv/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4755245">
+          <caret line="20" column="33" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Python idle/Lib/json/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33286715">
+          <caret line="121" column="4" selection-start-line="121" selection-start-column="4" selection-end-line="121" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Python idle/Lib/site-packages/django/core/serializers/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33286715">
+          <caret line="122" column="4" selection-start-line="122" selection-start-column="4" selection-end-line="122" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/iptv/list/static/easyui/changelog.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/mysite/polls/templates/polls/detail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/mysite/myblog/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/iptv/list/templates/list/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-17.0">
+          <caret line="26" column="55" selection-start-line="26" selection-start-column="55" selection-end-line="26" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/iptv/list/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="92" selection-start-line="7" selection-start-column="92" selection-end-line="7" selection-end-column="92" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/iptv/list/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/iptv/list/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="13" column="16" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+            <marker date="1470190171987" expanded="true" signature="137:301" placeholder="..." />
+            <marker date="1470190171987" expanded="true" signature="335:558" placeholder="..." />
+            <marker date="1470190171987" expanded="true" signature="589:860" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/iptv/list/manager.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.57062936">
+          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding>
+            <marker date="1470291616351" expanded="true" signature="188:255" placeholder="select id,na... category" />
+            <marker date="1470291616351" expanded="true" signature="636:758" placeholder="select a.nam... program" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

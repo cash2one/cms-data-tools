@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$USER_HOME$/Desktop/django-lfs/.idea/django-lfs.iml" filepath="$USER_HOME$/Desktop/django-lfs/.idea/django-lfs.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/epg_crawl.iml" filepath="$PROJECT_DIR$/.idea/epg_crawl.iml" />
+      <module fileurl="file://$USER_HOME$/Desktop/iptv/.idea/iptv.iml" filepath="$USER_HOME$/Desktop/iptv/.idea/iptv.iml" />
+      <module fileurl="file://$USER_HOME$/Desktop/mysite/.idea/mysite.iml" filepath="$USER_HOME$/Desktop/mysite/.idea/mysite.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../scrapy/.idea/scrapy.iml" filepath="$PROJECT_DIR$/../scrapy/.idea/scrapy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../test/.idea/test.iml" filepath="$PROJECT_DIR$/../test/.idea/test.iml" />
+    </modules>
+  </component>
+</project>

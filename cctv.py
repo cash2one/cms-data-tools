@@ -1,5 +1,6 @@
 # coding:utf-8
 from selenium import webdriver
+from selenium.common.exceptions import TimeoutException
 from bs4 import BeautifulSoup
 from bs4 import NavigableString
 import re
@@ -9,6 +10,7 @@ import urllib2
 import datetime
 import xlwt
 # import chardet
+import sys
 import codecs
 
 
@@ -21,18 +23,23 @@ class Cctv:
         # profile.set_preference('network.proxy.http_port',80)
         # profile.update_preferences()
         self.browser = webdriver.Firefox()
+        self.browser.set_page_load_timeout(6)
+        self.browser.set_script_timeout(6)
         self.epgInfo = []
         self.baseurl = "http://www.tvmao.com"
         self.basename = name
         self.pageSource = []
-        self.nextDay = datetime.date.today() + datetime.timedelta(days=1)
+        self.nextDay = datetime.date.today() #+ datetime.timedelta(days=1)
 
     def close(self):
         self.browser.close()
 
     def get_program_info(self):
 
-        self.browser.get(self.homeUrl)
+        try:
+            self.browser.get(self.homeUrl)
+        except TimeoutException:
+            self.browser.execute_script("window.stop()")
         self.get_page_source()
         for ps in self.pageSource:
             pl = self.get_epg_info(ps)
@@ -47,6 +54,7 @@ class Cctv:
     def get_page_source(self):
         reg = re.compile(r'\((.*?)\)')
         while True:
+            time.sleep(1)
             fresh = False
             try:
                 elements = self.browser.find_elements_by_xpath("//div[@class='epghdc lt']/dl/dd")
@@ -55,39 +63,50 @@ class Cctv:
                 break
             i = 0
             for e in elements:
-                d = reg.search(e.text)
-                if i == 0:
-                    i += 1
-                    continue
-                if d:
+                try:
 
-                    if d.group(1) == str(self.nextDay)[5:]:
-                        self.nextDay = self.nextDay + datetime.timedelta(days=1)
+                    d = reg.search(e.text)
+                    if i == 0:
+                        i += 1
+                        continue
+                    if d:
+                        if d.group(1) == str(self.nextDay)[5:]:
+                            e.click()
+                            fresh = True
+                            self.browser.implicitly_wait(5)
+                            break
+                        else:
+                            continue
+                    if e.text.encode("utf-8") == "下周":
+
                         e.click()
                         fresh = True
                         self.browser.implicitly_wait(5)
                         break
-                    else:
-                        continue
-                if e.text.encode("utf-8") == "下周":
-                    self.nextDay = self.nextDay + datetime.timedelta(days=1)
-                    e.click()
+                except TimeoutException:
+                    self.browser.execute_script("window.stop()")
                     fresh = True
-                    self.browser.implicitly_wait(5)
+                    break
+                except Exception:
                     break
                 # if e.text.encode("utf-8") == "本周":
                 #	e.click()
                 #	fresh = True
                 #	self.browser.implicitly_wait(5)
                 #	break;
+
             if fresh == False:
                 break
             self.pageSource.append(self.browser.page_source)
+            self.nextDay = self.nextDay + datetime.timedelta(days=1)
 
     def get_epg_info(self, html):
         programList = []  # one day epg
         soup = BeautifulSoup(html, 'lxml')
         date = self.get_date(soup)
+        if not date:
+            return []
+        print date
         for li in soup.find('ul', id='pgrow').children:
             if isinstance(li, NavigableString):
                 continue
@@ -146,7 +165,10 @@ class Cctv:
         return desc
 
     def get_date(self, soup):
-        dateInfo = soup.find('div', class_="mt10 clear").contents
+        try:
+            dateInfo = soup.find('div', class_="mt10 clear").contents
+        except AttributeError:
+            dateInfo = ''
         if len(dateInfo) > 0:
             date = str(dateInfo[0])[3:8]
             date = "2016-" + date
@@ -201,9 +223,21 @@ class Cctv:
         style.font = font
         return style
 
+def start_run(url, name):
+    try:
+        cctv3 = Cctv(url, name)
+        print "Starting parse %s ......" % url
+        cctv3.get_program_info()
+    except TimeoutException:
+        print "Url %s loading timeout!" % url
+    cctv3.close()
+    print "Starting write to excel ......"
+    cctv3.output_excel()
+    print "parsing EPG OK!"
+
 
 def main():
-    urlList = ['http://www.tvmao.com/program_satellite/BTV1-w4.html', 'http://www.tvmao.com/program_satellite/HUNANTV1-w5.html',
+    urlList = ['http://www.tvmao.com/program_satellite/BTV1-w2.html', 'http://www.tvmao.com/program_satellite/HUNANTV1-w5.html',
                'http://www.tvmao.com/program/CHC-CHC1-w3.html','http://www.tvmao.com/program/CCTV-CCTV8-w3.html',
                'http://www.tvmao.com/program_satellite/DONGFANG1-w5.html','http://www.tvmao.com/program/GDTV',
                'http://www.tvmao.com/program/SZTV','http://www.tvmao.com/program/CHC-CHC2-w3.html',
@@ -226,20 +260,19 @@ def main():
                 'Cartoon Network Taiwan', 'CNN International Asia Pacific', 'Disney Channel Asia', 'Disney Channel Hong Kong',
                 'Disney Channel Taiwan', 'Disney Junior Asia', 'Disney Junior Taiwan', 'Disney XD Asia', 'Toonami']
 
-    # urlList = ['http://www.tvmao.com/program/CCTV-CCTV6-w3.html']
-    # nameList = ['CCTV 6']
-
-    for i in range(len(urlList)):
-        url = urlList[i]
-        name = nameList[i]
-        cctv3 = Cctv(url, name)
-        print "Starting parse %s ......" % url
-        cctv3.get_program_info()
-        cctv3.close()
-        print "Starting write to excel ......"
-        cctv3.output_excel()
-        print "parsing EPG OK!"
-
+    if len(sys.argv) > 1:
+        try:
+            name = sys.argv[1]
+            index = nameList.index(name)
+            url = urlList[index]
+            start_run(url, name)
+        except ValueError, IndexError:
+            print "channel name error!"
+    else:
+        for i in range(len(urlList)):
+            url = urlList[i]
+            name = nameList[i]
+            start_run(url, name)
 
 if __name__ == "__main__":
     main()
